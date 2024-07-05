@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display:block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">index</a></li>
+                <li><a href="navbar.html">Navbar</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="blog1.html">Blogs</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h1>Please fill up the form</h1>
+            <form>
+                <label for="name">Your Name:
+                    <input type="text" id="name" placeholder="Your Name ">
+                </label>
+                <label for="email">Your Email:
+                    <input type="email" name="" id="email" placeholder="Your Email">
+                </label>
+                <label for="num">Your Number:
+                    <input type="text" id="num" placeholder="1234567890">
+                </label>
+                <fieldset>
+                    <legend>Choice one pitha </legend>
+                    <label for="chitoi">
+                        <input type="radio" name="pitha" id="chitoi">Chitoi
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa">Vapa
+                    </label>
+                    <label for="puri">
+                        <input type="radio" name="pitha" id="puri">Puri
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Choice all vorta </legend>
+                    <label for="shak">
+                        <input type="checkbox" name="vorta" id="shak">Shak vorta
+                    </label>
+                    <label for="shutki">
+                        <input type="checkbox" name="vorta" id="shutki">Shutki vorta 
+                    </label>
+                    <label for="chili">
+                        <input type="checkbox" name="vorta" id="chili">Chili vorta 
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </fieldset>
+                <input type="submit" value="Sent">
+                <input type="reset">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
